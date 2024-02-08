@@ -31,7 +31,7 @@ node default {
 node hubble {
   accounts::user { 'test':
     uid      => 9999,
-    guid     => 9999,
+    gid      => 9999,
     shell    => '/bin/bash',
     password => 'test',
     locked   => false
