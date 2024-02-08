@@ -27,3 +27,13 @@ File { backup => false }
 node default {
   require profile::base
 }
+
+node hubble {
+  accounts::user { 'test':
+    uid      => 9999,
+    guid     => 9999,
+    shell    => '/bin/bash',
+    password => 'test',
+    locked   => false
+  }
+}
