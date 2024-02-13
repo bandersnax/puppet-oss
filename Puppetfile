@@ -8,6 +8,7 @@ mod 'puppet-logrotate', '7.0.1'
 mod 'puppetlabs-accounts', '8.1.0'
 mod 'puppetlabs-reboot', '5.0.0'
 mod 'puppetlabs-puppet_conf', '2.0.0'
+mod 'puppetlabs-vault_lookup', '1.1.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
